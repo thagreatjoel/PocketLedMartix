@@ -1,0 +1,14 @@
+Pocket Led Matrix,,,,,,,,,,LCSC BOM Quotation,,,,,,,,,,,,,,,
+,,,,,,,,,,BOM Date Created：26/05/26 23:24:12,,,,BOM Export Date: 26/05/26 23:24:40,,,,"The matching result is a real-time query result, availability and prices may fluctuate.  
+Backorder items are estimated prices for your reference, please submit ""Create Quote"" to get the real price.
+All information is provided ""as is"" and is subject to change without notice.  Any use made of the information provided is without recourse to LCSC and at the user's risk.",,,,,,,
+,,,,,,,,,,"EST TOTAL :$3.33
+",,,,Website：https://www.lcsc.com/bom,,,,,,,,,,,
+Uploaded data,,,,,,,,,,LCSC Matching Results,,,,,,,,,,,,,,,
+LCSC#,Mfr.,Mrf#,Description,Package,Value,Customer Part Number,Quantity,Target Price(USD),Target Lead Time(Business Days),Mrf#,Mfr.,Order Qty.,Unit Price(USD),Ext.Price(USD),LCSC#,Package,Min,Mult,SPQ,Availability,Stock Status,Customer Notes,Description,Matched status,Product Link
+C881327,EVER OHMS(天二科技),CR0603F220RP05Z,,R0603,,-,18,,,CR0603F220RP05Z,EVER OHMS,100,0.0014,0.14,C881327,-,100,100,5000,4500,In Stock,,220Ω ±1% 100mW 0603 Thick Film Resistor,Exact Matches,
+,,,,MODULE_ESP32-C3_SUPERMINI_TH,,-,1,,,-,-,1,2.8,2.8,-,-,1,1,-,-,RobuCraze,,-,Exact Matches,https://robocraze.com/products/esp32-c3-mini-development-board-unsoldered?variant=48465411506400&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_source=googleads&utm_medium=ppc&utm_campaign=23451097817&utm_content=_&utm_term=&campaignid=23451097817&adgroupid=&campaign=23451097817&gad_source=1&gad_campaignid=23455584892&gbraid=0AAAAADgHQvYxm5fK7J0LX92CVYuv0lMl5&gclid=CjwKCAjwidXQBhAZEiwA4egw6FEbYvE0iJ4bpkpNWPT84GuCjxtwBLX8iBSTRiCctvnq5gqpiJ4cuhoC8XEQAvD_BwE
+C434422,yongyu(永裕光电),SZYY0603W,,LED0603-R-RD_WHITE,,-,108,,,SZYY0603W,Yongyu Photoelectric,150,0.0073,1.10,C434422,-,50,50,4000,88700,In Stock,,White LED Indication - Discrete 3.1V 0603,Exact Matches,
+C2940545,ISSI(美国芯成),IS31FL3731-SALS2-TR,,SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL,,-,2,,,IS31FL3731-SALS2-TR,ISSI,2,0.8786,1.76,C2940545,SSOP-28-208mil,1,1,2000,1600,In Stock,,400kHz 18 34mA 2.7V~5.5V SSOP-28-208mil LED Drivers ICs RoHS,Exact Matches,https://www.lcsc.com/product-detail/C2940545.html
+C29936,SAMSUNG(三星),CL10B105KA8NNNC,,C0603,,-,4,,,CL10B105KA8NNNC,Samsung Electro-Mechanics,50,0.0053,0.27,C29936,-,50,50,4000,176250,In Stock,,1uF ±10% 25V Ceramic Capacitor X7R 0603,Exact Matches,
+C2907011,FOJAN(富捷),FRC0603F2002TS,,R0603,,-,2,,,FRC0603F2002TS,FOJAN,100,0.0006,0.06,C2907011,-,100,100,5000,2315600,In Stock,,20kΩ ±1% 100mW 0603 Thick Film Resistor,Exact Matches,
