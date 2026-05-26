@@ -28,3 +28,5 @@ I wanted to build a very compact LED display that can fit into small devices and
 
 # Schematics
 <img width="1348" height="807" alt="image" src="https://github.com/user-attachments/assets/29f58ab9-7951-48e5-8c75-14180e13a291" />
+<p align="center"><img width="500"" alt="Power Zine" src="<img width="517" height="802" alt="image" src="https://github.com/user-attachments/assets/200dd95a-3230-434d-931b-849b702c481d" />
+" /></p>
