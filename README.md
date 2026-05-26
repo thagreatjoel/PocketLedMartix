@@ -36,7 +36,7 @@ I wanted to build a very compact LED display that can fit into small devices and
 
 <h1 align="center">USAGE</h1>
 
-## Wiring
+## Wiring:
 
 ### ESP32 to IC
 
@@ -74,6 +74,50 @@ Columns:
 Each LED:
 Row (CB) -> LED -> Column (CA)
 
+
+
+<h1 align="center">Sketch</h1>
+
+This is just a small example sketch to use IS31FL3731
+
+```cpp
+#include <Wire.h>
+#include <Adafruit_IS31FL3731.h>
+
+#define SDA 8
+#define SCL 9
+
+Adafruit_IS31FL3731 matrix1 = Adafruit_IS31FL3731();
+Adafruit_IS31FL3731 matrix2 = Adafruit_IS31FL3731();
+
+void setup() {
+  Wire.begin(SDA, SCL);
+
+
+  matrix1.begin(0x74);
+  matrix2.begin(0x77); 
+
+  matrix1.clear();
+  matrix2.clear();
+}
+
+void loop() {
+
+  for (int i = 0; i < 20; i++) {
+    matrix1.drawPixel(i, 0, 255);
+    matrix2.drawPixel(i, 0, 255);
+    delay(50);
+  }
+
+  delay(500);
+
+  matrix1.clear();
+  matrix2.clear();
+
+  delay(500);
+}
+
+```
 <h1 align="center"> PCB & SCHEMATIC</h1>
 
 <img width="500"  alt="Screenshot 2026-05-27 000205" src="https://github.com/user-attachments/assets/0f36d0ff-ec47-49a3-98c7-f9eb40da7343" />
