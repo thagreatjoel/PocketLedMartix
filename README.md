@@ -26,7 +26,55 @@
 <h1> Why i made this?</h1>
 I wanted to build a very compact LED display that can fit into small devices and but still show animations and text. Mmst LED matrices are bulky or use too many pins so I designed this using driver ICs and a dense PCB layout to clean and compacted
 
-# PCB & Schematics
+## Setup ESP32
+
+1. Install Arduino IDE  
+2. Add ESP32 board  
+3. Select **ESP32 C3 Dev Module**  
+4. Connect board via USB
+
+
+<h1 align="center">USAGE</h1>
+
+## Wiring
+
+### ESP32 to IC
+
+- GPIO8 → SDA  
+- GPIO9 → SCL  
+- 3.3V → VCC  
+- GND → GND  
+
+Both chips use the same wires I2C
+
+
+### Chip Setup 
+
+- SDB → 3.3V  
+- REXT → 20kΩ → GND  
+- CFIL → 1uF → GND  
+- Add Decopuing 0.1µF capacitor  
+
+
+
+### Address Setup
+
+- Chip 1, Address = `0x74`  
+- Chip 2, Address = `0x77`  
+
+
+
+### LED Wiring (6×18)
+
+- Rows (R1–R6) are connected to **CB1–CB6** on BOTH chips  
+Columns:
+- Chip 1, C1–C9 to CA1–CA9  
+- Chip 2, C10–C18 to CA1–CA9  
+
+Each LED:
+Row (CB) -> LED -> Column (CA)
+
+<h1 align="center"> PCB & SCHEMATIC</h1>
 
 <img width="500"  alt="Screenshot 2026-05-27 000205" src="https://github.com/user-attachments/assets/0f36d0ff-ec47-49a3-98c7-f9eb40da7343" />
 <img width="500"  alt="Screenshot 2026-05-27 000126" src="https://github.com/user-attachments/assets/122c699a-a729-45e9-ab68-bb9e0479f7a8" />
