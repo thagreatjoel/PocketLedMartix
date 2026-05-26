@@ -26,8 +26,13 @@
 <h1> Why i made this?</h1>
 I wanted to build a very compact LED display that can fit into small devices and but still show animations and text. Mmst LED matrices are bulky or use too many pins so I designed this using driver ICs and a dense PCB layout to clean and compacted
 
-# Schematics
-<img width="1348" height="807" alt="image" src="https://github.com/user-attachments/assets/29f58ab9-7951-48e5-8c75-14180e13a291" />
+# PCB & Schematics
+
+<img width="500"  alt="Screenshot 2026-05-27 000205" src="https://github.com/user-attachments/assets/0f36d0ff-ec47-49a3-98c7-f9eb40da7343" />
+<img width="500"  alt="Screenshot 2026-05-27 000126" src="https://github.com/user-attachments/assets/122c699a-a729-45e9-ab68-bb9e0479f7a8" />
+<img width="1000"  alt="image" src="https://github.com/user-attachments/assets/1e928c94-2eb7-4250-8c15-8555730d071c" />
+
+
 
 <h1 align="center">Zine Page</h1>
 <p align="center"><img width="500" alt="Power Zine" src="https://github.com/user-attachments/assets/518b758f-7c27-4377-8904-68c06cba5fb1" />
